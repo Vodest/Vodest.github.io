@@ -22,7 +22,15 @@ body{
 	color:#ff4040;
 }
 
+.smallimg{
+    width:40px;
+    height:50px;	
+}
 
+.medimg{
+	width:300px;
+	height:200px;
+}
 
 
 ul{
