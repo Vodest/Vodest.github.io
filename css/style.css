@@ -1,5 +1,5 @@
 body{
-	font: 15px/1.5 Times-new Roman;
+	font: 15px/1.5 Times-new Roman,;
 	padding:0;
 	margin:0;
 	background-color:#000000
@@ -22,14 +22,11 @@ body{
 	color:#ff4040;
 }
 
-.smallimg{
-    width:40px;
-    height:50px;	
-}
 
-.medimg{
-	width:300px;
-	height:200px;
+i#lastupdated{
+	font-size:11px;
+	color:#ffffff;
+	float:right;
 }
 
 
@@ -39,15 +36,12 @@ ul{
 }
 
 
-
-
-
 /* Header **/
 header{
 	min-height:70px;
 	border-bottom:#ff4040 5px solid;
 	padding-top:30px;	
-	color#ff4040;
+	color:#ff4040;
 
 }
 
@@ -77,11 +71,11 @@ header nav{
 	margin-bottom:10px;
 }
 
-
-
 header a:hover{
 	color:#ff4040;
 }
+
+
 
 aside#sidebar{
 	float:right;
@@ -103,10 +97,23 @@ aside#sidebar-right{
 }
 
 
+
 article#main-col{
 	float:left;
 	width: 65%;
 	margin-top:10px;
+}
+
+section#concepts{
+	padding:20px;
+	margin-top:20px;
+	color:#ffffff;
+	background-color:#8E2626;
+	font-size:30px;
+}
+
+section img{
+	padding:40px;
 }
 
 
@@ -117,5 +124,4 @@ footer{
 	margin-top:20px;
 	color:#ffffff;
 	background-color:#ff3030;
-	text-align: center;
 }
