@@ -1,3 +1,5 @@
+/*Global*/
+
 body{
 	font: 15px/1.5 Times-new Roman,;
 	padding:0;
@@ -37,6 +39,7 @@ ul{
 
 
 /* Header **/
+
 header{
 	min-height:70px;
 	border-bottom:#ff4040 5px solid;
@@ -76,6 +79,7 @@ header a:hover{
 }
 
 
+/*Aside ID's*/
 
 aside#sidebar{
 	float:right;
@@ -89,7 +93,6 @@ aside#sidebar-left{
 	margin-top:50px;
 }
 
-
 aside#sidebar-right{
 	width:15%;
 	float:right;
@@ -97,12 +100,15 @@ aside#sidebar-right{
 }
 
 
-
+/*Article ID's*/
 article#main-col{
 	float:left;
 	width: 65%;
 	margin-top:10px;
 }
+
+
+/*Section ID's*/
 
 section#concepts{
 	padding:20px;
