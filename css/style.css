@@ -13,7 +13,7 @@ body{
 	overflow:hidden;
 }
 
-.centertext{
+.blocktext{
 	float:center;
 	width:40%;
 	margin:auto;
@@ -50,6 +50,9 @@ ul{
 	padding:0;
 }
 
+p#promo{
+	font-family: 'Segoe Script';
+}
 
 /* Header **/
 
