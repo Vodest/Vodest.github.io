@@ -24,6 +24,11 @@ body{
 	color:#ff4040;
 }
 
+.musictheme{
+	display:none;
+	volume:-60%;
+}
+
 .li_button a{
 	background-color:#ff4040;
 	color:#ffffff;
@@ -52,6 +57,11 @@ ul{
 
 p#promo{
 	font-family: 'Segoe Script';
+}
+
+#hiddentexts{
+	display:none;
+	
 }
 
 /* Header **/
