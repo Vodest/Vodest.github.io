@@ -24,9 +24,8 @@ body{
 	color:#ff4040;
 }
 
-.musictheme{
+.hidden{
 	display:none;
-	volume:-60%;
 }
 
 .li_button a{
@@ -55,14 +54,12 @@ ul{
 	padding:0;
 }
 
-p#promo{
+#promo{
 	font-family: 'Segoe Script';
+	color:#545454;
 }
 
-#hiddentexts{
-	display:none;
-	
-}
+
 
 /* Header **/
 
@@ -102,6 +99,11 @@ header a:hover{
 	color:#ff4040;
 }
 
+#teaserbranding{
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+}
 
 /*Aside ID's*/
 
@@ -142,7 +144,7 @@ section#concepts{
 }
 
 section#concepts img{
-	padding:40px;
+	padding:30px;
 }
 
 
@@ -150,10 +152,15 @@ section#concepts img{
 
 footer{
 	padding:10px;
-	margin-top:20px;
+	margin-top:30px;
 	color:#ffffff;
 	background-color:#ff3030;
 	text-align:center;
+}
+
+footer#teaserfooter{
+	background-color:#000000;
+	color:#545454;
 }
 
 
