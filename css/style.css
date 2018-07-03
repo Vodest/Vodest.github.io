@@ -20,7 +20,7 @@ body{
 	overflow:hidden;
 }
 
-.highlight, .current{
+.highlight, .highlighted, .current{
 	color:#ff4040;
 }
 
