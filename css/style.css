@@ -25,7 +25,7 @@ body{
 }
 
 .hidden{
-	display:none;
+	display: none !important;
 }
 
 .li_button a{
@@ -46,7 +46,7 @@ body{
 i#lastupdated{
 	font-size:11px;
 	color:#ffffff;
-	float:right;
+	float:right !important; 
 }
 
 ul{
@@ -55,7 +55,7 @@ ul{
 }
 
 #promo{
-	font-family: 'Segoe Script';
+	font-family: 'Segoe Script' !important;
 	color:#545454;
 }
 
