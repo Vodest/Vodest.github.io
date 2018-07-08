@@ -1,9 +1,11 @@
 /*Global*/
 
 body{
+	
 	font: 15px/1.5 Times-new Roman,;
 	padding:0;
 	margin:0;
+	height:100%;
 	background-color:#000000;
 	border:auto;
 }
@@ -42,6 +44,10 @@ body{
 	display: none !important;
 }
 
+.wrapper{
+	min-height:100%;
+	position:relative;
+}
 
 
 .li_button a{
@@ -57,6 +63,24 @@ body{
 	color:#000000;
 	background-color:#ff3030;
 }
+
+.mainImage{
+	margin-top:50px;
+}
+
+
+/*Background Art*/
+
+#backgroundartMusic{
+	background-image:url("../images/KbD.jpg");
+	
+}
+
+#backgroundartArchives{
+	background-image:url("../images/LogoFinalizedSoD.jpeg")
+}
+
+
 
 
 i#lastupdated{
@@ -74,6 +98,8 @@ ul{
 	font-family: 'Segoe Script' !important;
 	color:#545454;
 }
+
+
 
 
 
@@ -104,6 +130,8 @@ header #branding{
 header #branding h1{	
     margin:0;
 }
+
+
 
 header nav{
 	float:left;
@@ -172,6 +200,7 @@ footer{
 	color:#ffffff;
 	background-color:#ff3030;
 	text-align:center;
+	float:absolute;
 	font-size:13px;
 }
 
