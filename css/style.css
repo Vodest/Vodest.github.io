@@ -28,7 +28,7 @@ body{
 
 .blocktext{
 	float:center;
-	width:40%;
+	width:35%;
 	margin:auto;
 	overflow:hidden;
 }
@@ -196,11 +196,14 @@ footer#teaserfooter{
 /*Background Art*/
 
 #backgroundartMusic{
-	background:url("../images/KbD.jpg") no-repeat left top;
+	background:url("../images/KbD.jpg") #000000 no-repeat left top;
 	background-size:100%;
 }
 
-
+#backgroundartChapterI{
+	background:url("../images/LogoFinalizedSOD.jpeg") #000000 no-repeat left top;
+	background-size:100%;
+}
 
 
 
