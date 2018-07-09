@@ -17,6 +17,15 @@ body{
 	overflow:hidden;
 }
 
+.showcase{
+	width:80%;
+	margin:auto;
+	margin-top:14%;
+	margin-bottom:14%;
+	border:auto;
+	overflow:hidden;
+}
+
 .blocktext{
 	float:center;
 	width:40%;
@@ -50,6 +59,8 @@ body{
 }
 
 
+
+
 .li_button a{
 	background-color:#ff4040;
 	color:#ffffff;
@@ -72,13 +83,12 @@ body{
 /*Background Art*/
 
 #backgroundartMusic{
-	background-image:url("../images/KbD.jpg");
-	
+	background:url("../images/KbD.jpg") no-repeat left top;
+	background-size:100%;
 }
 
-#backgroundartArchives{
-	background-image:url("../images/LogoFinalizedSoD.jpeg")
-}
+
+
 
 
 
