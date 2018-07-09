@@ -58,9 +58,6 @@ body{
 	position:relative;
 }
 
-
-
-
 .li_button a{
 	background-color:#ff4040;
 	color:#ffffff;
@@ -79,20 +76,6 @@ body{
 	margin-top:50px;
 }
 
-
-/*Background Art*/
-
-#backgroundartMusic{
-	background:url("../images/KbD.jpg") no-repeat left top;
-	background-size:100%;
-}
-
-
-
-
-
-
-
 i#lastupdated{
 	font-size:11px;
 	color:#ffffff;
@@ -108,10 +91,6 @@ ul{
 	font-family: 'Segoe Script' !important;
 	color:#545454;
 }
-
-
-
-
 
 /* Header **/
 
@@ -140,8 +119,6 @@ header #branding{
 header #branding h1{	
     margin:0;
 }
-
-
 
 header nav{
 	float:left;
@@ -179,14 +156,12 @@ aside#sidebar-right{
 	margin-top:50px;
 }
 
-
 /*Article ID's*/
 article#main-col{
 	float:left;
 	width: 65%;
 	margin-top:10px;
 }
-
 
 /*Section ID's*/
 
@@ -200,7 +175,6 @@ section#concepts{
 section#concepts img{
 	padding:30px;
 }
-
 
 /* Footer */
 
@@ -217,6 +191,13 @@ footer{
 footer#teaserfooter{
 	background-color:#000000;
 	color:#545454;
+}
+
+/*Background Art*/
+
+#backgroundartMusic{
+	background:url("../images/KbD.jpg") no-repeat left top;
+	background-size:100%;
 }
 
 
