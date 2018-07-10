@@ -8,3 +8,5 @@ As of now, on the 10th of July, the first Chapter - titled "Regret" - has been o
 I thank all of whom have visited the site and wish all of you, who have begun reading a cheerful time!
 
 As of the 10th of July, no English translations have been made, though this is to be changed immediately.
+
+UPDATE: 10th of July - 2:50PM~ an raw english translation has been submitted, though character archive files and chapter I are still in the making.
