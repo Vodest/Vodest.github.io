@@ -1,4 +1,10 @@
-/*Global*/
+/*!
+* Style CSS v1.4
+*
+* Copyright 2018 Enes Amer Windgassen
+* 
+* Open source - freeware code.
+*/
 
 body{
 	
@@ -79,12 +85,6 @@ body{
 .langcontainer{
 	width:15%;
 	float:right;
-}
-
-i#lastupdated{
-	font-size:11px;
-	color:#ffffff;
-	float:right !important; 
 }
 
 ul{
@@ -209,6 +209,7 @@ footer#teaserfooter{
 	background:url("../images/LogoFinalizedSOD.jpeg") #000000 no-repeat left top;
 	background-size:100%;
 }
+
 
 
 
