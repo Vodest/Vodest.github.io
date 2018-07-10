@@ -76,6 +76,11 @@ body{
 	margin-top:50px;
 }
 
+.langcontainer{
+	width:15%;
+	float:right;
+}
+
 i#lastupdated{
 	font-size:11px;
 	color:#ffffff;
