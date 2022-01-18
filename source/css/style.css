@@ -41,7 +41,7 @@ header, img{
 
 .super-content-container{
     background-position-y: center;
-    background-image: url('../img/Onehorneddaemonlonelydaemon.png');
+    background-image: url('../img/ohd.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%, 100%;
@@ -52,13 +52,17 @@ header, img{
 
 /* Footer */
 footer{
+    margin-top: 2%;
     text-align: center;
 }
-
 
 /* ID Properties */
 #main-header{
     margin-left: 50px;
+}
+
+#sigil_01{
+    height: 100px;
 }
 
 /* Media-Screen Specific Settings */
