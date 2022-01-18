@@ -1,16 +1,12 @@
 /* Body Properties */
 body{
-    min-height: 90%;
+    min-height: 50%;
     background-color: #000000;
     color: #ffffff;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* Header Properties */
-header{
-    margin: 20px auto 0 auto;
-}
-
 header, a{
     color: #ffffff;
     text-decoration: none;
@@ -28,31 +24,51 @@ header, img{
 
 /* General Classes */
 .content-container{
+    text-align: center;
+    width: fit-content;
+    margin: 50px auto 50px auto;
+}
+
+.large-font{
+    font-size: larger;
+}
+
+.bordered{
     border: #ffffff;
     border-width: 2px;
     border-style: solid;
-    width: fit-content;
-    margin: 0 auto 50px auto;
 }
 
 .super-content-container{
+    background-position-y: center;
     background-image: url('../img/Onehorneddaemonlonelydaemon.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%, 100%;
     width: 100%;
-    height: 100%;
+    height: 85%;
 }
 
-.bg-colored-maxwidth{
-    background-color: #911A01;
-    border-radius: 5px;
-    width: 100%;
-    padding: 25px;
-    text-align: center;
-}
 
 /* Footer */
 footer{
     text-align: center;
+}
+
+
+/* ID Properties */
+#main-header{
+    margin-left: 50px;
+}
+
+/* Media-Screen Specific Settings */
+@media screen {
+    header{
+        margin-bottom: 50px;
+    }
+    
+    iframe{
+        min-width: 50px;
+        min-height: auto;
+    }
 }
