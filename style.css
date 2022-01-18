@@ -35,14 +35,13 @@ a:hover{
 
 .super-content-container{
     background-position-y: center;
-    background-image: url('../img/ohd.png');
+    background-image: url('./img/ohd.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%, 100%;
     width: 100%;
     height: 85%;
 }
-
 
 /* Footer */
 footer{
