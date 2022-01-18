@@ -52,13 +52,17 @@ header, img{
 
 /* Footer */
 footer{
+    margin-top: 2%;
     text-align: center;
 }
-
 
 /* ID Properties */
 #main-header{
     margin-left: 50px;
+}
+
+#sigil_01{
+    height: 100px;
 }
 
 /* Media-Screen Specific Settings */
