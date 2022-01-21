@@ -19,11 +19,7 @@ app.component('main-content', {
         </div>
         <!--
         <br>
-        <div>
-            <div class="content-container bordered">
-                <img src="">
-            </div>
-        </div>
+        
         -->
     </div>
     `,
@@ -78,6 +74,7 @@ app.component('main-header', {
                     </a>
                 </h3>
             </span>
+            <br>
     </header>
     `,
     methods:{
@@ -99,9 +96,10 @@ app.component('description-text', {
                {{ text }}
             </b>
         </i>
-        <div>
-            <img id="sigil_01" src="./source/img/sigil_01.png">
-        </div>
+        <br>
+        <br>
+        <img id="sigil_00" src="./source/img/sigil_00.png" class="grey-circle">
+        <img id="sigil_01" src="./source/img/sigil_01.png" class="grey-circle">        
     </div>
     `,
     methods:{
