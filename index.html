@@ -1,50 +1,23 @@
 <HEAD lang="de">
 	<META charset="utf-8">
-	<META name="viewport" content="width=device-width, initial-scaale=1.0">
+	<META name="viewport" content="width=device-width, initial-scale=1.0">
 	<META name="author" content="Enes Amer Windgassen">
 	<LINK rel="stylesheet" href="./style.css">
 	<LINK rel="shortcut icon" href="./source/img/icon.png">
-	<TITLE>Vodest.GitHub.IO - Siegel</TITLE>
+	<TITLE>Vodest - Siegel</TITLE>
 </HEAD>
 
-<BODY>
-	<header>
-		<h1>
-			<span id="main-header">
-				<a href="./index.html">
-					<img id="site-icon" src="./source/img/icon.png">
-					<i>Siegel</i>
-				</a>
-			</span>
-		</h1>
-	</header>
-	<div class="super-content-container">
-		<div class="content-container bordered">
-			<iframe width="600" height="480" src="https://www.youtube.com/embed/Z4XGr63UFDo" title="Youtube Player"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
-			</iframe>
+<script src="./node_modules/vue/dist/vue.global.js"></script>
+
+
+<BODY id="main-site">
+	<section id="app">
+		<main-header id="dev-active"></main-header>
+		<div>
+			<main-content></main-content>
+			<description-text></description-text>
 		</div>
-		<div class="content-container large-font">
-			<i>
-				<b>
-					In Development
-				</b>
-			</i>
-			<div>
-				<img id="sigil_01" src="./source/img/sigil_01.png">
-			</div>
-		</div>
-	</div>
-	<footer>
-		<p>&copy; Copyright 2018-2022 – Enes A. "Vodest" Windgassen, All rights reserved.
-			<br>
-			Sigil-Designs courtesy to itch.io user watabou and his 
-			<i>
-				<a href="https://watabou.itch.io/sigil-generator">
-					Sigil-Generator.
-				</a>
-			</i>
-		</p>
-	</footer>
+		<main-footer></main-footer>
+	</section>
 </BODY>
+<script src="./main.js"></script>
