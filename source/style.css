@@ -78,7 +78,7 @@ footer{
 
 #main-site{
     background-position-y: center;
-    background-image: url('./source/img/ohd.png');
+    background-image: url('./img/ohd.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%, 100%;
@@ -87,7 +87,7 @@ footer{
 #development-info-site{
     background-position-y: center;
     background-position-x: center;
-    background-image: url('./source/img/bwr.png');
+    background-image: url('./img/bwr.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%, 100%;
