@@ -1,4 +1,3 @@
-var pdfBase64 = ''
 const app = Vue.createApp({})
 
 app.component('main-content', {
