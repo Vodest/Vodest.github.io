@@ -1,11 +1,6 @@
-const app = Vue.createApp({})
+const app = Vue.createApp({});
 
 app.component('main-content', {
-    data() {
-        return {
-            text: ''
-        }
-    },
     template: `
     <br>
     <br>
@@ -28,11 +23,6 @@ app.component('main-content', {
 })
 
 app.component('main-footer', {
-    data(){
-        return{
-            temp: null
-        }
-    },
     template:
     `
 	<footer>
@@ -46,10 +36,7 @@ app.component('main-footer', {
             </i>
         </p>
     </footer>
-    `,
-    methods:{
-
-    }
+    `
 })
 
 app.component('main-header', {

@@ -1,2 +1,2 @@
 # Vodest.github.io
-Projekt: Siegel
+Personal Web Client for training developer skill and displaying projects.
