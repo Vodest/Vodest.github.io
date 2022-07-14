@@ -11,13 +11,11 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title >
-          <img
-          alt="icon"
-          src="~assets/icon.png"
-          style="width: 20px; height: 20px">
-          Sigil
+        <q-toolbar-title>
+          Quasar App
         </q-toolbar-title>
+
+        <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
